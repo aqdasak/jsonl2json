@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "jsonl2json-aq"
+version = "0.1.0"
+description = "Converts jsonlines file to json file, by converting it into array of json objects."
+authors = ["Aqdas Ahmad Khan <aqdasak@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "jsonl2json_aq" }]
+
+keywords = [
+    'python',
+    'jsonl to json',
+    'ndjson to json',
+    'convert jsonlines to json',
+]
+homepage = "https://github.com/aqdasak/jsonl2json"
+repository = "https://github.com/aqdasak/jsonl2json"
+license = "MIT"
+
+[tool.poetry.scripts]
+jl2j = "jsonl2json_aq.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jsonlines = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
