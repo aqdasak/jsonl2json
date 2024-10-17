@@ -26,8 +26,8 @@ def main():
         print(e)
         exit(1)
 
-    with open(output_filename, "w") as output:
-        json.dump(json_object, output, indent=2)
+    with open(output_filename, "w", encoding="utf-8") as output:
+        json.dump(json_object, output, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jsonl2json-aq"
-version = "0.1.0"
+version = "0.1.1"
 description = "Converts jsonlines file to json file, by converting it into array of json objects."
 authors = ["Aqdas Ahmad Khan <aqdasak@gmail.com>"]
 readme = "README.md"

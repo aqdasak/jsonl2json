@@ -1,1 +1,5 @@
+*.json
+*.jsonl
+*.ndjson
 __pycache__/
+dist/
